@@ -13,7 +13,7 @@ const ProjectsContainer = () => {
             <ul className="group/proj-list">
                 {projectItemsList.map(projectItem => (
                     <ProjectItem
-                        keyName={projectItem.keyName}
+                        key={projectItem.keyName}
                         youtubeId={projectItem.youtubeId}
                         githubLink={projectItem.githubLink}
                         name={projectItem.name}

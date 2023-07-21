@@ -1,5 +1,4 @@
 export interface ProjectItemProps {
-    keyName: string,
     youtubeId: string,
     githubLink: string,
     name: string,
