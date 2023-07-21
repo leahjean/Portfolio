@@ -4,7 +4,7 @@ import YouTube from "react-youtube";
 import { useModal } from "../../../context/modal/context";
 import { ModalContextType } from "../../../context/modal/modal-context-type";
 
-export default () => {
+const YoutubeModal = () => {
     const modalContext: ModalContextType = useModal();
     const options = {
         width: "100%",
@@ -30,3 +30,4 @@ export default () => {
     ) :
     <div />
 }
+export default YoutubeModal;

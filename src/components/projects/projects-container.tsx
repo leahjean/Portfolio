@@ -1,7 +1,7 @@
 import {projectItemsList} from "./project-items-list"
 import ProjectItem from "./project-item";
 
-export default () => {
+const ProjectsContainer = () => {
     const onThumbnailClick = (youtubeId: string): void => {
         
     }
@@ -27,3 +27,4 @@ export default () => {
         </div>
     )
 }
+export default ProjectsContainer;

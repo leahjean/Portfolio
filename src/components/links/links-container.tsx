@@ -1,4 +1,4 @@
-export default () => (
+const LinksContainer = () => (
     <div className="flex flex-row gap-4 lg:mt-20">
         <a href="https://www.linkedin.com/in/keji-jean-chen-80a603111/" target="_blank">
             <svg className="w-6 h-6 bi bi-linkedin text-slate-700 hover:text-slate-900 fill-current" viewBox="0 0 16 16">
@@ -12,3 +12,4 @@ export default () => (
         </a>
     </div>
 )
+export default LinksContainer;

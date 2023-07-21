@@ -5,7 +5,7 @@ import { ProjectImageItemProps } from "./project-image-item-props";
 import { useModal } from '../../../context/modal/context';
 import { ModalContextType } from '../../../context/modal/modal-context-type';
 
-export default (projectImageItemProps: ProjectImageItemProps) => {
+const ProjectImageItem = (projectImageItemProps: ProjectImageItemProps) => {
     const modalContext: ModalContextType = useModal();
     const onClickHandler = (): void => {
         modalContext.openModal(projectImageItemProps.youtubeId);
@@ -28,3 +28,4 @@ export default (projectImageItemProps: ProjectImageItemProps) => {
         </div>
     )
 }
+export default ProjectImageItem;

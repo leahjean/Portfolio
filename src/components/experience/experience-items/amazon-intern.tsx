@@ -1,6 +1,6 @@
 import ExperienceItem from "../experience-item"
 
-export default () => <ExperienceItem
+const AmazonIntern = () => <ExperienceItem
     keyName="amazon-intern"
     startMonth="MAY"
     startYear={2017}
@@ -13,3 +13,4 @@ export default () => <ExperienceItem
         "React",
         "JavaScript",
     ]} />
+export default AmazonIntern;

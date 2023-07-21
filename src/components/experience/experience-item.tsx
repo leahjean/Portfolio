@@ -2,7 +2,7 @@ import { ExperienceItemProps } from "./experience-item-props"
 import SkillsContainer from "./skills-container"
 
 
-export default (experienceItem: ExperienceItemProps) => {
+const ExperienceItem = (experienceItem: ExperienceItemProps) => {
     return (
         <li key={experienceItem.keyName} className="group hover:!opacity-100 group-hover/exp-list:opacity-50">
             <div className="flex flex-row gap-3 mb-4 group-hover:bg-white/30 group-hover:drop-shadow-md group-hover:shadow-md rounded-lg py-4 px-6 transition ease-in-out">
@@ -30,3 +30,4 @@ export default (experienceItem: ExperienceItemProps) => {
         </li>
     )
 }
+export default ExperienceItem;

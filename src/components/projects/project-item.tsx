@@ -2,7 +2,7 @@ import SkillsContainer from "../experience/skills-container";
 import ProjectImageItem from "./project-image-item";
 import { ProjectItemProps } from "./project-item-props";
 
-export default (projectItem: ProjectItemProps) => (
+const ProjectItem = (projectItem: ProjectItemProps) => (
     <li key={projectItem.keyName} className="group hover:!opacity-100 group-hover/proj-list:opacity-50">
         <div className="flex flex-row gap-3 mb-4 group-hover:bg-white/30 group-hover:drop-shadow-md group-hover:shadow-md rounded-lg py-4 px-6 transition ease-in-out">
             <div className="w-1/4">
@@ -30,3 +30,4 @@ export default (projectItem: ProjectItemProps) => (
         </div>
     </li>
 )
+export default ProjectItem;

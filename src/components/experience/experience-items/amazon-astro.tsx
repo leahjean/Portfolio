@@ -1,6 +1,6 @@
 import ExperienceItem from "../experience-item";
 
-export default () => <ExperienceItem
+const AmazonAstro = () => <ExperienceItem
     keyName="amazon-astro"
     startMonth="MAR"
     startYear={2018}
@@ -18,3 +18,4 @@ export default () => <ExperienceItem
         "Node",
         "Android",
     ]} />
+export default AmazonAstro;
